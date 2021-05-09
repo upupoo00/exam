@@ -6,16 +6,16 @@ package Java0508;
  */
 
 import java.util.Scanner;
-    public class Main1{
-        public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
+public class Main1{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
             while(sc.hasNext()){
                 String zhengze = sc.next();
                 String s = sc.next();
                 zhengze = zhengze.replaceAll("\\?","[\\\\w]{1}");
                 zhengze = zhengze.replaceAll("\\*","[\\\\w]*");
                 System.out.println(s.matches(zhengze));
-            }
-            sc.close();
-        }
+             }
+        sc.close(); 
     }
+}
