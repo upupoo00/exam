@@ -42,6 +42,5 @@ public class Main1 {
         max = k > max ? k : max;
         return max;
     }
-
 }
 
