@@ -1,6 +1,6 @@
 public class Test {
     private static void test(){
-        System.out.println("test");
+        test();
     }
     public static void main(String[] args) {
 //        int i = 0;
@@ -12,6 +12,6 @@ public class Test {
 //        String y = x.replace('f','F');
 //        y = y+"wxy";
 //        System.out.println(y);
-        ((Test)null).test();
+        test();
     }
 }
